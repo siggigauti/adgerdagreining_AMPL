@@ -1,0 +1,9 @@
+model timaverkefni2.mod;
+data timaverkefni2.dat;
+solve;
+
+display x;
+display kostnad;
+
+printf {(n,m) in Flug}:
+	"Sendum %d kassa frá %s til %s \n", x[n,m], n, m > timad2.txt;

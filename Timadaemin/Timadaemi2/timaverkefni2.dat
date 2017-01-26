@@ -1,0 +1,15 @@
+set BorgirFra := Seattle SanDiego;
+set BorgirTil := NewYork Chicago Topeka;
+
+param : Flug : verd :=
+Seattle NewYork 225
+Seattle Chicago 153
+Seattle Topeka 162
+SanDiego NewYork 225
+SanDiego Chicago 162
+SanDiego Topeka 126;
+
+param eftirspurn :=
+NewYork 325
+Chicago 300
+Topeka 275;

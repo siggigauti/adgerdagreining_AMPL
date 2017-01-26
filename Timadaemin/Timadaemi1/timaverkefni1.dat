@@ -1,0 +1,15 @@
+set vorur := beyglur muffur;
+set efni := hveiti egg sykur;
+
+param lager :=
+hveiti 50
+egg 30
+sykur 20;
+
+param verd :=
+beyglur 10
+muffur 12;
+
+param amt: hveiti egg sykur :=
+beyglur 5 2 1
+muffur 4 4 2;
