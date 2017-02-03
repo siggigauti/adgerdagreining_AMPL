@@ -1,0 +1,11 @@
+reset;
+reset;
+
+model daemi4.mod;
+data daemi4.dat;
+solve;
+
+display fjoldi;
+
+print: "Fjárfesta skal í:" > daemi4.txt;
+printf {v in typa}: "%.2f af %s\n", fjoldi[v], v >> daemi4.txt; 

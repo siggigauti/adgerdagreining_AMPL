@@ -1,0 +1,15 @@
+set car := T C L;
+
+param factoryTimi :=
+T 1
+C 2
+L 3;
+param profit :=
+T 200
+C 500
+L 700;
+param orders :=
+T 10
+C 20
+L 15;
+param maxTimi := 120;

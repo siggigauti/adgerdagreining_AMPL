@@ -1,0 +1,15 @@
+set birgi := A B C D E F G;
+set sykur := cane corn beet;
+
+param s_percent:
+cane corn beet :=
+A 0.10 0.30 0.60
+B 0.10 0.40 0.50
+C 0.20 0.40 0.40
+D 0.30 0.20 0.50
+E 0.40 0.60 0.0
+F 0.20 0.70 0.10
+G 0.60 0.10 0.30;
+
+param cost :=
+A 10 B 11 C 12 D 13 E 14 F 12 G 15;

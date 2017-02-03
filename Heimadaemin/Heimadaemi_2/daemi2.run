@@ -1,0 +1,11 @@
+reset;
+reset;
+
+model daemi2.mod;
+data daemi2.dat;
+solve;
+
+display x;
+
+print: "Kaupa skal:" > daemi2.txt;
+printf {v in birgi}: "%.2f tonn frá %s\n", x[v], v >> daemi2.txt;

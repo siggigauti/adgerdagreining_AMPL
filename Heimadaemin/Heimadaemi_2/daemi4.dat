@@ -1,0 +1,11 @@
+set typa := TV Mag Radio;
+
+param kostn :=
+TV 20000
+Mag 10000
+Radio 2000;
+param ahorfendur :=
+TV 1800000
+Mag 1000000
+Radio 250000;
+param budget := 1000000;

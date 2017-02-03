@@ -1,0 +1,11 @@
+reset;
+reset;
+
+model daemi5.mod;
+data daemi5.dat
+solve;
+
+display fjoldi;
+
+print: "Framleiða skal:" > daemi5.txt;
+printf {v in car}: "%.2f af bíl %s\n", fjoldi[v], v >> daemi5.txt;
